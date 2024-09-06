@@ -1,0 +1,26 @@
+{
+  "name": "minimalesque",
+  "displayName": "Minimalesque",
+  "description": "A Colorful Dark Theme for VS Code.",
+  "version": "0.0.2",
+  "icon": "assets/minimalesque_icon.png",
+  "repository": {
+    "url": "https://github.com/Yassine914/Minimalesque.git"
+  },
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "publisher": "y-software",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Minimalesque-Defalut",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Minimalesque-Default.json"
+      }
+    ]
+  }
+}
